@@ -95,7 +95,6 @@ Work orders are created via REST with priority, planned start time, and work cen
 ```bash
 git clone https://github.com/Aureo01/nexus-industrial-twin
 cd nexus-industrial-twin
-pip install -r requirements.txt
 python nexus.py
 ```
 
