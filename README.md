@@ -1,4 +1,4 @@
-# 🌌 nexus-industrial-twin
+# nexus-industrial-twin
 
 > Physics-Informed AI for predictive maintenance, autonomous drone dispatch, and self-healing production systems.
 
@@ -106,13 +106,13 @@ The simulation runs 20 cycles. The first 15 are normal operation. Cycles 16–20
 ## Simulation Output
 
 ```
-[INFO] 🧠 PINN trained for PUMP-001 (Loss: 0.0031)
-[INFO] 🚁 DRONE DISPATCHED: DRONE-ALPHA-01 → PUMP-001 (thermal_camera)
-[CRITICAL] 🚨 PHYSICS VIOLATION: Temperature (150°C) exceeds thermodynamic
+[INFO]  PINN trained for PUMP-001 (Loss: 0.0031)
+[INFO]  DRONE DISPATCHED: DRONE-ALPHA-01 → PUMP-001 (thermal_camera)
+[CRITICAL]  PHYSICS VIOLATION: Temperature (150°C) exceeds thermodynamic
            prediction by 87.3%. Possible dry friction or cooling failure.
-[INFO] 📡 SAP Work Order created: ORD-47291 (Priority 1, starts in 4h)
-[CRITICAL] 🔄 SELF-HEALING: Rerouting PUMP-001 load → PUMP-002
-[INFO] ✅ Drone DRONE-ALPHA-01 returned. Thermal anomaly CONFIRMED.
+[INFO]  SAP Work Order created: ORD-47291 (Priority 1, starts in 4h)
+[CRITICAL]  SELF-HEALING: Rerouting PUMP-001 load → PUMP-002
+[INFO]  Drone DRONE-ALPHA-01 returned. Thermal anomaly CONFIRMED.
 ```
 
 ---
